@@ -1,2 +1,1 @@
-#!/bin/bash
 NODE_ENV=production postcss style.css --output assets/css/style.css
