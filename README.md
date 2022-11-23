@@ -27,9 +27,9 @@ Detailed dependencies listed in the [Gemfile](./Gemfile) and [package.json](./pa
 
 Run Jekyll:
 ```
-$ jekyll s
+$ bundle exec jekyll s
 ```
-or `jekyll s -l`, `jekyll serve`, `jekyll serve --livereload`, `bundle exec jekyll s`
+or `bundle exec jekyll s -l`, `bundle exec jekyll serve --livereload`
 
 
 ## Troubleshooting
@@ -42,4 +42,4 @@ Often, cleaning the cache by deleting the `.jekyll-cache` folder will also allow
 
 **If running into the PostCSS error `Cannot load module`:**
 
-Delete both `node_modules` and `jekyll-cache` folders, run `npm i` and then start Jekyll server with `jekyll s` 
+Delete both `node_modules` and `jekyll-cache` folders, run `npm i` and then start Jekyll server with `bundle exec jekyll s` 
