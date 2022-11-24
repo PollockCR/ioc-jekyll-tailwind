@@ -24,12 +24,12 @@ Detailed dependencies listed in the [Gemfile](./Gemfile) and [package.json](./pa
 
 2. Open this folder in a Dev Container within VS Code
 
-3. In the terminal, run
+3. If this is the **first time** you're running Jekyll, in the terminal, run
     ```
     $ bundle install
     ```
 
-4. Run Jekyll & Tailwind CLI concurrently:
+4. Run **Jekyll & Tailwind CLI** concurrently:
     ```
     $ npm run dev
     ```
@@ -42,7 +42,12 @@ Run Jekyll & Tailwind CLI concurrently with polling:
 $ npm run dev:poll
 ```
 #### **Debug a Jekyll error**
-Run the debug command
+Run the debug command:
 ```
 $ npm run dev:trace
+```
+#### **Jekyll error message related to rexml**
+Run the bundler install command:
+```
+$ bundle install
 ```
