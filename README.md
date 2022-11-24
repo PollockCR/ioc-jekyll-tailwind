@@ -24,15 +24,25 @@ Detailed dependencies listed in the [Gemfile](./Gemfile) and [package.json](./pa
 
 2. Open this folder in a Dev Container within VS Code
 
-Run Jekyll & Tailwind CLI concurrently:
-```
-$ npm run dev
-```
+3. In the terminal, run
+    ```
+    $ bundle install
+    ```
+
+4. Run Jekyll & Tailwind CLI concurrently:
+    ```
+    $ npm run dev
+    ```
 
 ### Troubleshooting
 
-#### Jekyll or Tailwind changes not detected or displayed
+#### **Jekyll changes not detected or displayed**
 Run Jekyll & Tailwind CLI concurrently with polling:
 ```
 $ npm run dev:poll
+```
+#### **Debug a Jekyll error**
+Run the debug command
+```
+$ npm run dev:trace
 ```
