@@ -28,3 +28,11 @@ Run Jekyll & Tailwind CLI concurrently:
 ```
 $ npm run dev
 ```
+
+### Troubleshooting
+
+#### Jekyll or Tailwind changes not detected or displayed
+Run Jekyll & Tailwind CLI concurrently with polling:
+```
+$ npm run dev:poll
+```
