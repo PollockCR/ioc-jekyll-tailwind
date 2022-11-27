@@ -24,7 +24,8 @@
 	// "extensions": [],
 	"extensions": [
 		"bradlc.vscode-tailwindcss",
-		"austenc.tailwind-docs"
+		"austenc.tailwind-docs",
+		"sissel.shopify-liquid"
 	],
 	"postCreateCommand": "npm install"
 }
