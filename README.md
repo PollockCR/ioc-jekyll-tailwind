@@ -15,8 +15,8 @@ Detailed dependencies are listed in the [Gemfile](./Gemfile) and [package.json](
 
 - [Visual Studio Code](https://code.visualstudio.com)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) Visual Studio Code extension
-- [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) Visual Studio Code extnesion
+-  Visual Studio Code [Docker Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+- Visual Studio Code [Dev Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 ### Run Jekyll and Tailwind in a dev container
 
